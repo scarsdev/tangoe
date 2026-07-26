@@ -98,6 +98,7 @@
       <h3>Notifications and technical information</h3>
       <ul>
         <li>Apple Push Notification service device tokens and notification preferences.</li>
+        <li>For an assigned upcoming shift, Tangoe can ask iOS to show an on-device reminder when the device enters a wider area around the job site. iOS evaluates that arrival region; Tangoe does not create paid time or upload a work-location record until you explicitly clock in.</li>
         <li>Limited service logs needed to secure, operate and troubleshoot the app, such as request time, error and network information processed by our service providers.</li>
       </ul>
 
@@ -110,9 +111,11 @@
     <section>
       <h2>3. When collection happens</h2>
       <p>
-        Tangoe requests location only while you prepare or record an active work session. Location and motion
-        monitoring stop when the session stops. Camera, photo-library, microphone and speech-recognition access
-        are used only when you choose the corresponding progress-proof feature. Notification permission is optional.
+        Tangoe may use an iOS-managed arrival region for an assigned upcoming shift so your locked phone can
+        remind you to open the app and clock in. This reminder does not clock you in. Tangoe checks a fresh,
+        accurate location when you explicitly clock in, and location and motion monitoring for verification
+        stop when the work session stops. Camera, photo-library, microphone and speech-recognition access are
+        used only when you choose the corresponding progress-proof feature. Notification permission is optional.
       </p>
       <p>
         iOS presents permission controls before protected data is accessed. You can deny or later revoke a
